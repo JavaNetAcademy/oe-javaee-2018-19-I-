@@ -6,11 +6,13 @@
         <artifactId>hoe</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
-    <artifactId>Endowments</artifactId>
+    <groupId>hu.javagladiators.education.hoe</groupId>
+    <artifactId>endowment</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>endowment-dao-model/endowment-dao-model</module>
         <module>endowment-dao-jpa</module>
-        <module>endowment-web-servlet_jsp/endowment-web-servlet_jsp</module>
+        <module>Endowments-Service-cdi</module>
+        <module>endowment-web-servlet_jsp</module>
+        <module>endowment-dao-model/endowment-dao-model</module>
     </modules>
 </project>

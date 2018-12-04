@@ -6,14 +6,13 @@
         <artifactId>endowment</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
-    <artifactId>endowment-dao-jpa</artifactId>
+    <artifactId>endowment-web-servlet_jsp</artifactId>
     <packaging>jar</packaging>
     <dependencies>
         <dependency>
             <groupId>hu.javagladiators.education.hoe.base</groupId>
-            <artifactId>base-dao-model</artifactId>
+            <artifactId>base-service-model</artifactId>
             <version>1.0-SNAPSHOT</version>
-            <type>jar</type>
         </dependency>
         <dependency>
             <groupId>${project.groupId}</groupId>
@@ -21,9 +20,14 @@
             <version>${project.version}</version>
         </dependency>
         <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>Endowments-Service-cdi</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
             <groupId>javax</groupId>
-            <artifactId>javaee-api</artifactId>
-            <version>8.0</version>
+            <artifactId>javaee-web-api</artifactId>
+            <version>7.0</version>
             <type>jar</type>
         </dependency>
     </dependencies>
