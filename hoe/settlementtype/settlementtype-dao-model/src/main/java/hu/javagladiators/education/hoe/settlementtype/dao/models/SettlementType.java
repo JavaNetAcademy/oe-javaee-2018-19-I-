@@ -11,9 +11,6 @@ import javax.persistence.NamedQueries;
 import javax.persistence.NamedQuery;
 import javax.persistence.Table;
 
-/**
- * @author krisztian
- */
 @Entity
 @Table(
     name = "settlementtype", 
